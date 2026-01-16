@@ -163,6 +163,13 @@ footer {
 <footer>
   © 2026 ONE NEWS HD
 </footer>
+<script>
+const newsContainer = document.querySelector('.container') || document.body;
+const newsPosts = Array.from(document.querySelectorAll('.news-post'));
 
+newsPosts.reverse().forEach(post => {
+  newsContainer.prepend(post);
+});
+      </script>
 </body>
 </html>
