@@ -1,23 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="ur">
 <head>
 <meta charset="UTF-8">
 <title>ONE NEWS HD</title>
 
 <style>
+/* ===== BASIC ===== */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #f5f5f5;
+  background: #f2f2f2;
 }
 
+/* ===== HEADER ===== */
 header {
   background: #b30000;
-  color: white;
+  padding: 10px 0;
   text-align: center;
-  padding: 20px;
 }
 
+header img {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+/* ===== NAV ===== */
 nav {
   background: #222;
   padding: 10px;
@@ -25,57 +35,68 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: #fff;
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
 }
 
+/* ===== CONTAINER ===== */
 .container {
-  background: white;
-  margin: 20px auto;
-  padding: 15px;
+  background: #ffffff;
   max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
 }
 
-.container img {
+/* ===== IMAGES ===== */
+.container img,
+.news-post img {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
+  height: auto;
   display: block;
-  margin: 10px auto;
+  margin: 15px auto;
+  border-radius: 6px;
 }
 
+/* ===== NEWS POST ===== */
+.news-post {
+  background: #ffffff;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border-left: 5px solid #b30000;
+}
+
+.news-post h2 {
+  color: #b30000;
+}
+
+.news-post p {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* ===== FOOTER ===== */
 footer {
   background: #000;
-  color: white;
+  color: #fff;
   text-align: center;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 </style>
 </head>
 
 <body>
 
-<header class="header">
-  <div class="header-inner">
-<header class="header">
-    <div class="header-inner">
-
-        <!-- TOP PHOTO -->
-        <div class="top-photo">
-            <img src="CEO-ALI-1768591231777.jpeg">
-        </div>
-
-    </div>
-</header>
-        </a>
-      </p>
-    </div>
-
-  </div>
+<!-- ===== HEADER IMAGE ===== -->
+<header>
+  <img src="CEO-ALI-1768591231777.jpeg" alt="ONE NEWS HD CEO">
 </header>
 
+<!-- ===== MENU ===== -->
 <nav>
   <a href="#">Home</a>
   <a href="#">Urdu News</a>
@@ -83,45 +104,49 @@ footer {
   <a href="#">Contact</a>
 </nav>
 
+<!-- ===== NEWS 1 ===== -->
 <div class="container">
   <h2>Breaking News</h2>
 
-  <img src="untitled-1768572489726.jpeg">
-
-  </p>ا
-  علی اصغر ون نیوز ایچ ڈی کے چیف ایگزیکٹو آفیسر ہیں، جو ادارے کو سچائی، دیانت داری اور جدید ڈیجیٹل صحافت کے اصولوں کے تحت کامیابی کی جانب لے جا رہے ہیں۔ ان کی قیادت میں ون نیوز ایچ ڈی ایک مستند اور قابلِ اعتماد نیوز پلیٹ فارم کے طور پر اپنی پہچان مضبوط کر رہا ہے۔
-علی اصغر صحافتی معیار کو بہتر بنانے، ڈیجیٹل میڈیا کو فروغ دینے اور عوام تک بروقت و مستند خبریں پہنچانے کے لیے بھرپور کردار ادا کر رہے ہیں۔ ان کی محنت اور وژن ون نیوز ایچ ڈی کے اس عزم کی عکاسی کرتا ہے کہ عوام کو شفاف اور ذمہ دار صحافت فراہم کی جائے۔
-  </p>
-</div>
-
-<footer>
-© 2026 ONE NEWS HD
-</footer>
-
-</body>
-</html>
-<!-- NEWS 2 -->
-<div class="container">
-  <h2>Breaking News</h2>
-
-  <img src="untitled-1768508381960.jpeg" alt="One News Representatives" style="width:100%;max-width:700px;display:block;margin:10px auto;">
+  <img src="untitled-1768572489726.jpeg" alt="Ali Asghar One News HD">
 
   <p>
-  ون نیوز کو دنیا بھر سے نمائندگان کی ضرورت ہے۔
-  خواہش مند حضرات واٹس ایپ پہ رابطہ کریں۔
+    علی اصغر ون نیوز ایچ ڈی کے چیف ایگزیکٹو آفیسر ہیں، جو ادارے کو سچائی،
+    دیانت داری اور جدید ڈیجیٹل صحافت کے اصولوں کے تحت کامیابی کی جانب لے جا رہے ہیں۔
+    ان کی قیادت میں ون نیوز ایچ ڈی ایک مستند اور قابلِ اعتماد نیوز پلیٹ فارم
+    کے طور پر اپنی پہچان مضبوط کر رہا ہے۔
+  </p>
+
+  <p>
+    علی اصغر صحافتی معیار کو بہتر بنانے، ڈیجیٹل میڈیا کو فروغ دینے
+    اور عوام تک بروقت و مستند خبریں پہنچانے کے لیے بھرپور کردار ادا کر رہے ہیں۔
   </p>
 </div>
+
+<!-- ===== NEWS 2 ===== -->
+<div class="container">
+  <h2>Breaking News</h2>
+
+  <img src="untitled-1768508381960.jpeg" alt="One News Representatives">
+
+  <p>
+    ون نیوز کو دنیا بھر سے نمائندگان کی ضرورت ہے۔
+    خواہش مند حضرات واٹس ایپ پر رابطہ کریں۔
+  </p>
+</div>
+
+<!-- ===== ANNOUNCEMENT ===== -->
 <div class="news-post">
   <h2>اعلامیہ نمائندگی</h2>
 
-  <img src="untitled-1768579391943.jpeg"
-       alt="ONE NEWS HD District Reporter Appointment"
-       style="width:100%; max-width:800px; display:block; margin:15px auto; border-radius:8px;">
+  <img src="untitled-1768579391943.jpeg" alt="District Reporter Appointment">
 
   <p>
     ون نیوز ایچ ڈی کی جانب سے باقاعدہ اعلان کیا جاتا ہے کہ
-    <strong>فرمان علی</strong> کو تحصیل <strong>شرقپور</strong> ضلع
-    <strong>شیخوپورہ</strong> میں <strong>ڈسٹرکٹ رپورٹر</strong> مقرر کر دیا گیا ہے۔
+    <strong>فرمان علی</strong> کو تحصیل
+    <strong>شرقپور</strong> ضلع
+    <strong>شیخوپورہ</strong> میں
+    <strong>ڈسٹرکٹ رپورٹر</strong> مقرر کر دیا گیا ہے۔
   </p>
 
   <p>
@@ -130,6 +155,14 @@ footer {
     تمام سرکاری و غیر سرکاری ادارے ان کے ساتھ تعاون کریں۔
   </p>
 
-  <p><strong>رابطہ:</strong> 0349-1441853</p>
-  <p><strong>فیس بک:</strong> ONENEWSHD</p>
+  <p><strong>📞 رابطہ:</strong> 0349-1441853</p>
+  <p><strong>📘 فیس بک:</strong> ONENEWSHD</p>
 </div>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  © 2026 ONE NEWS HD
+</footer>
+
+</body>
+</html>
