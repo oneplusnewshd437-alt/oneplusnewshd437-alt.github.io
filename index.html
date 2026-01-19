@@ -274,7 +274,26 @@ footer {
     جبکہ شہریوں کو غیر ضروری باہر نکلنے سے گریز کرنے کی ہدایت کی گئی ہے۔
   </p>
   </div>
+<!-- page ka baqi content -->
 
+<script>
+document.querySelectorAll('.news-post').forEach(function(post) {
+  let shareDiv = document.createElement('div');
+  shareDiv.style.marginTop = "10px";
+  shareDiv.innerHTML = `
+    <a href="https://www.facebook.com/sharer/sharer.php?u=${window.location.href}" target="_blank">
+      Facebook Share
+    </a> |
+    <a href="https://api.whatsapp.com/send?text=${window.location.href}" target="_blank">
+      WhatsApp Share
+    </a>
+  `;
+  post.appendChild(shareDiv);
+});
+</script>
+
+</body>
+</html>
   
 <!-- ===== FOOTER ===== -->
 <footer>
